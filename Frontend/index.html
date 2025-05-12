@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Multiplicación de Matrices</title>
+</head>
+<body>
+    <h1>Multiplicar dos matrices</h1>
+    <label>Filas de Matriz A: <input type="number" id="filasA"></label>
+    <label>Columnas de Matriz A / Filas de Matriz B: <input type="number" id="columnasA"></label>
+    <label>Columnas de Matriz B: <input type="number" id="columnasB"></label>
+    <button onclick="crearMatrices()">Crear las matrices</button>
+
+    <div id="matrices"></div>
+    <button onclick="enviarMultiplicacion()">Multiplicar matrices</button>
+    
+    <h2>Resultado</h2>
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
